@@ -21,6 +21,9 @@
 mkdir ($nu.data-dir | path join "vendor/autoload")
 starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
 
+# 定义别名和目录常量
+alias vim = nvim
+
 # 解决输入字符终端文字上移的问题
 $env.config.shell_integration.osc133 = false
 # 适配需要支持右提示词的主题
