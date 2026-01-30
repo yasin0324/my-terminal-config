@@ -1,5 +1,5 @@
 # terminal config
-
+wezterm + nushell + starship
 ---
 
 ## 效果展示
